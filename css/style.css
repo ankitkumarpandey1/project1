@@ -3,4 +3,10 @@ h1{
   background-color:black;
 }
 body{
-  background-color:red;
+  background-color:red;}
+div{
+width:100%;
+  hight:50%;
+  border:5px solid green;
+
+}
