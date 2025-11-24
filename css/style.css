@@ -13,6 +13,11 @@ width:100%;
 
 
 }
+.divmain{
+display: flex;}
+
+
+
 @mesia(max-width:576){
 .divmain{flex-direction:colon;}
 }
