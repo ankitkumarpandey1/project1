@@ -30,7 +30,9 @@ repeat:no-repeat;
 
 
 
-@media screen and(max-width:576){
-.divmain{flex-direction:colon;
-         
+@media screen and (max-width: 576px) {
+  .divmain {
+    flex-direction: column;
+  }
 }
+
