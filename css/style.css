@@ -18,9 +18,13 @@ display: flex;
 
 
 }
-.diva{
-background-image: url('rat.png');
+
+.childdiv:nth-of-type(2){
+
+repeat:no-repeat;
+  background-image: url("C:\Users\Ankit\Pictures\Feedback\{26052715-2AAE-4D7A-914D-E9AB2CD2C62E}") !important;
 }
+
 
 
 
