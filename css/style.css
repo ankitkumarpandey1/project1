@@ -30,6 +30,7 @@ repeat:no-repeat;
 
 
 
-@mesia(min-width:576){
-.divmain{flex-direction:colon;}
+@media screen and(max-width:576){
+.divmain{flex-direction:colon;
+         
 }
