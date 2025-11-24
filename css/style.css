@@ -30,6 +30,6 @@ repeat:no-repeat;
 
 
 
-@mesia(max-width:576){
+@mesia(min-width:576){
 .divmain{flex-direction:colon;}
 }
