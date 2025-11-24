@@ -1,37 +1,37 @@
-h1 {
+h1{
   color: pink;
-  background-color: black;
+  background-color:black;
 }
-
-body {
-  background-color: red;
-  margin: 0;
+body{
+  background-color:red;
+  margin:0px;
 }
-
-/* All divs */
-div {
-  width: 100%;
-  height: 50%;           /* corrected 'hight' → 'height' */
+div{
+width:100%;
+  hight:50%;
   border: 5px solid green;
+
+
+}
+.divmain{
+display:flex;
+  width:100%;
+  height:50%
+
+
 }
 
-/* Main container */
-.divmain {
-  display: flex;
-  width: 100%;
-  height: 50%;
+.diva:nth-of-type(2){
+
+repeat:no-repeat;
+  background-image: url("../Screenshot (1).png") !important;
 }
 
-/* Apply background image to second .diva */
-.diva:nth-of-type(2) {
-  background-repeat: no-repeat;     /* corrected 'repeat' → 'background-repeat' */
-  background-image: url("../Screenshot (1).png");
-  background-size: cover;           /* optional but recommended */
-}
 
-/* Responsive */
+
+
 @media screen and (max-width: 576px) {
   .divmain {
     flex-direction: column;
   }
-}
+} this is css code correct tis code
