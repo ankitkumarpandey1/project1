@@ -15,11 +15,11 @@ width:100%;
 }
 .divmain{
 display: flex;
-background-image: url('rat.png');
+
 
 }
 .diva{
-  img
+background-image: url('rat.png');
 }
 
 
