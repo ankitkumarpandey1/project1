@@ -9,14 +9,14 @@ body{
 diva{
 width:100%;
   hight:50%;
-  border: 5px solid green;
+  border: 50px solid green;
 
 
 }
 .divmain{
 display:flex;
  height:100%;
-
+ border: 50px solid green; 
 
 }
 
