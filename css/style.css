@@ -9,7 +9,7 @@ body{
 diva{
 width:100%;
   hight:50%;
-  border: 50px solid green;
+  border: 15px solid green;
 
 
 }
@@ -21,7 +21,7 @@ display:flex;
 }
 
 .diva:nth-of-type(2){
-border: 50px solid green;
+border: 15px solid green;
 
 repeat:no-repeat;
   background-image: url("../Screenshot (1).png") !important;
