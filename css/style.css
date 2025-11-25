@@ -1,38 +1,7 @@
-h1{
-  color: pink;
- 
-}
+.header{
+  width:100%;
+  height:10%;
+  background: color yellow;
 
-.diva{
-width:50%;
-  hight:50%;
-  background-color:yellow;
-  border: 15px solid green;
-
-
-}
-.divmain{
-display:flex;
- height:100%;
-
-
-}
-
-.diva:nth-of-type(2){
-border: 15px solid green;
-
-repeat:no-repeat;
-  background-image: url("../Screenshot (1).png") !important;
-}
-
-
-
-
-@media screen and (max-width: 576px) {
-  .divmain {
-    flex-direction: column;
   }
-
-  .diva{width:100%;
-           height:50%;}
-} 
+  
