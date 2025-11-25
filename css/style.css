@@ -1,12 +1,9 @@
 h1{
   color: pink;
-  background-color:black;
+ 
 }
-body{
-  background-color:red;
-  margin:0px;
-}
-diva{
+
+.diva{
 width:50%;
   hight:50%;
   border: 15px solid green;
