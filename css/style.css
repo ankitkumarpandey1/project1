@@ -26,8 +26,8 @@
 }
 
 .logo a img {
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 /* MEDIA QUERY (braces fixed, syntax corrected) */
