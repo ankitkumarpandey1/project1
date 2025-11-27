@@ -35,9 +35,14 @@
     display:flex;
     text-decoration:none;
     text-style:none;
+  list-style:none;}
+
+.nav ul li{
+    text-decoration:none;
+}
+  .nev ul{
+    
   }
-
-
 @media (max-width: 576px) {
   .header {
     height: 7%;
