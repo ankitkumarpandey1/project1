@@ -39,6 +39,7 @@ body{
     display:flex;
     text-decoration:none;
     list-style:none;
+    gap:40px;
 
   }
   
@@ -49,6 +50,7 @@ body{
    
  
 }
+  
  
 @media (max-width: 576px) {
   .header {
