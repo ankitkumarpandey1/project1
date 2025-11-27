@@ -40,7 +40,7 @@ body{
     display:flex;
     text-decoration:none;
     list-style:none;
-   
+     gap:40px;
 justify-content: space-between; 
   padding: 10px 20px;
 }
