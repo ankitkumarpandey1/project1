@@ -35,15 +35,15 @@ body{
   width: auto;
   height: auto;
 }
-  .nav{  justify-content: space-between; /* equal space between items */
-  padding: 10px 20px;
-}
+
   .nav ul{
     display:flex;
     text-decoration:none;
     list-style:none;
-    gap:40px;
-
+   
+justify-content: space-between; /* equal space between items */
+  padding: 10px 20px;
+}
 
   }
   
