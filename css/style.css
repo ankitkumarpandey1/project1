@@ -33,12 +33,13 @@
 }
   nav ul{
     display:flex;
-    text-decoration:none;
+ 
 
   list-style:none;}
 
 nav ul li{
     text-decoration:none;
+     text-decoration:none;
 }
   .nev ul{
     
