@@ -38,6 +38,7 @@ body{
   .nav ul{
     display:flex;
     text-decoration:none;
+    list-style:none;
 
   }
   
@@ -48,9 +49,7 @@ body{
    
  
 }
-  .nev ul{
-    
-  }
+ 
 @media (max-width: 576px) {
   .header {
     height: 7%;
