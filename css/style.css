@@ -15,6 +15,7 @@
 .menu {
   width: 75%;
   background-color: red;
+  display:flex;
 }
 
 .logo a {
@@ -33,6 +34,7 @@
   nav ul{
     display:flex;
     text-decoration:nun;
+    text-style:nun;
   }
 
 
