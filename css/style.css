@@ -42,7 +42,7 @@ body{
     text-decoration:none;
     list-style:none;
   
-    
+    flex-wrap: wrap; 
     justify-content: space-around; 
 
  
