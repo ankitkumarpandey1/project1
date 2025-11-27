@@ -40,7 +40,7 @@ body{
     text-decoration:none;
     list-style:none;
     gap:40px;
-    font-color:green;
+    color:green;
 
   }
   
@@ -48,7 +48,7 @@ body{
 
 .nav ul li a{
     text-decoration:none;
-   font-color:green;
+   color:green;
    
  
 }
