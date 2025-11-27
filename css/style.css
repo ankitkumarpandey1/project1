@@ -39,12 +39,18 @@ body{
     display:flex;
  
 
-  list-style:none;}
+  }
+  nav{
+     tex-style:none;
+     text-color:white;
+    
+  }
+  
 
 .nav ul li a{
     text-decoration:none;
-    tex-style:none;
-  text-color:white;
+   
+ 
 }
   .nev ul{
     
