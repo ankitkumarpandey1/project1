@@ -11,10 +11,10 @@ body{
   
         
 
-.logo{
-       width:25%;
+.logo a{width:100%;
        height:100%;
-       background-color:black;  
+       display:flex;
+       justify-content:center;
            
 }
 
