@@ -7,13 +7,15 @@ body{
   height: 10%;
   background-color: blue;
     display: flex; 
+   overflow:hidden;
   
         
 
-.logo {
-
-  width: 25%;
-  background-color: green;
+.logo{
+       width:25%;
+       height:100%;
+       background-color:black;  
+           
 }
 
 .menu {
