@@ -1,100 +1,75 @@
-*{
-  margin:0px;
-  padding:0%;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.header{width:100%;
-       height: 10%;
-       background-color: yellow;
-       display:flex;
-            overflow:hidden;
-       
-      }
-.logo{
-       width:25%;
-       height:100%;
-       background-color:black;  
-           
+.header {
+  width: 100%;
+  background: yellow;
+  display: flex;
+  align-items: center;
 }
 
-.logo a{width:100%;
-       height:100%;
-       display:flex;
-       justify-content:center;
-   }
-         
-.logo a img{width:auto;
-            height:auto; 
-        
-   }
-.menu{
-       width:75%;   
-       display:flex; 
-       background-color:skyblue;
-
-}
-.nav{
-       width:100%;
-
-       }
-
-.nav ul{
-           display:flex;
-           list-style:none;
-           text-decoration:none;
-           justify-content: space-around;
-       align-items:center;
-      
+.logo {
+  width: 25%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.nav ul li a{
-          text-decoration:none;
-          color: green;
-          justify-content:center;
-      
-          font-size:min(1.5vw,1.5vw);     
-}
-.nav ul li {
-    position: relative;
+.logo img {
+  height: 60px;
 }
 
+.menu {
+  width: 75%;
+  background: skyblue;
+}
 
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul li {
+  list-style: none;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: green;
+  font-size: 1.2vw;
+  padding: 10px 15px;
+  display: block;
+}
+
+/* ------- SUBMENU (dropdown) ------- */
 .submenu {
-    display: none;
-    position: absolute;  
-    top: 100%;            
-    left: 0;
-    background: #444;
-    list-style: none;
-    min-width: 160px;
-    padding: 0;
-    margin: 0;
-    z-index: 1000;       
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  min-width: 120px;
+  border: 1px solid #ccc;
 }
 
+.submenu li {
+  width: 100%;
+  text-align: left;
+}
 
 .submenu li a {
-    display: block;
-    padding: 10px 15px;
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
+  font-size: 1vw;
+  padding: 8px 10px;
+  color: black;
 }
 
-
-.submenu li a:hover {
-    background: #555;
+/* Show submenu on hover */
+.navbar ul li:hover .submenu {
+  display: block;
 }
-
-
-.has-submenu:hover .submenu {
-    display: block;
-}
-
-
-
-
-
-
-
