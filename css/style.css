@@ -55,34 +55,32 @@
       
           font-size:min(1.5vw,1.5vw);     
 }
-  .menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background: #333;
-  display: flex;
+  .submenu{
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  background:#444;
+  list-style:none;
+  min-width:150px;
+  padding:0;
+  margin:0;
+}
+
+/* SUBMENU LINKS */
+.submenu li a{
+  padding:10px;
+  display:block;
+  color:white;
+  font-size:14px;
+}
+
+/* SHOW SUBMENU ON HOVER */
+.nav ul li:hover .submenu{
+  display:block;
 }
 
 
-/* Hide sub-menu by default */
-.submenu {
-  display: none;
-  position: absolute;
-  background: #444;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  min-width: 150px;
-}
-
-/* Show sub-menu on hover */
-.has-submenu:hover .submenu {
-  display: block;
-}
-
-.submenu a {
-  padding: 10px;
-}
 
 
 
