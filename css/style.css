@@ -54,6 +54,9 @@
           justify-content:center;
       
           font-size:min(1.5vw,1.5vw);     
+}/**/
+.nav ul li{
+  position:relative;
 }
   .submenu{
   display:none;
