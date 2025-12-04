@@ -1,94 +1,89 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-/* HEADER */
 .header {
-  width: 100%;
-  height: 70px;
-  background-color: yellow;
-  display: flex;
-  align-items: center;
+    width: 100%;
+    height: 70px;
+    background: yellow;
+    display: flex;
+    align-items: center;
 }
 
-/* LOGO */
 .logo {
-  width: 25%;
-  height: 100%;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 25%;
+    height: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo img {
-  height: 60%;
-  width: auto;
+    height: 60%;
+    width: auto;
 }
 
-/* MENU */
 .menu {
-  width: 75%;
-  background-color: skyblue;
-  display: flex;
-  align-items: center;
+    width: 75%;
+    background: skyblue;
+    display: flex;
+    align-items: center;
 }
 
 .nav {
-  width: 100%;
+    width: 100%;
 }
 
 .nav ul {
-  display: flex;
-  list-style: none;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .nav ul li {
-  position: relative;
+    position: relative;
 }
 
-/* MAIN MENU LINKS */
 .nav ul li a {
-  text-decoration: none;
-  color: green;
-  font-size: min(1.5vw, 18px);
-  padding: 10px 15px;
-  display: block;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: green;
+    display: block;
+    font-size: 18px;
 }
 
 /* SUBMENU */
 .submenu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #444;
-  list-style: none;
-  min-width: 150px;
-  padding: 0;
-  margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #444;
+    list-style: none;
+    min-width: 160px;
+    display: none;
+    z-index: 9999;     /* IMPORTANT FIX */
 }
 
-/* SUBMENU LINKS */
 .submenu li a {
-  padding: 10px;
-  display: block;
-  color: white;
-  font-size: 14px;
+    color: white;
+    padding: 10px;
+    display: block;
+    font-size: 14px;
 }
 
 /* SHOW SUBMENU ON HOVER */
-.nav ul li:hover .submenu {
-  display: block;
+.dropdown:hover .submenu {
+    display: block;
 }
 
-/* RESPONSIVE */
-@media screen and (max-width: 576px) {
-  .header {
-    background-color: red;
-    height: 60px;
-  }
+/* MOBILE FIX */
+@media (max-width: 576px) {
+    .header {
+        height: 60px;
+        background: red;
+    }
 }
+
