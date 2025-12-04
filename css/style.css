@@ -55,33 +55,9 @@
       
           font-size:min(1.5vw,1.5vw);     
 }/**/
-.nav ul li{
-  position:relative;
-}
-  .submenu{
-  display:none;
-  position:absolute;
-  top:100%;
-  left:0;
-  background:#444;
-  list-style:none;
-  min-width:150px;
-  padding:0;
-  margin:0;
-}
 
-/* SUBMENU LINKS */
-.submenu li a{
-  padding:10px;
-  display:block;
-  color:white;
-  font-size:14px;
-}
 
-/* SHOW SUBMENU ON HOVER */
-.nav ul li:hover .submenu{
-  display:block;
-}
+
 
 
 
