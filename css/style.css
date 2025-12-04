@@ -64,7 +64,7 @@
     list-style: none;
     min-width: 160px;
     display: none;
-    z-index: 9999;     /* IMPORTANT FIX */
+    z-index: 9999;
 }
 
 .submenu li a {
@@ -74,12 +74,11 @@
     font-size: 14px;
 }
 
-/* SHOW SUBMENU ON HOVER */
-.dropdown:hover .submenu {
+/* SHOW SUBMENU ON HOVER – FIXED */
+.has-submenu:hover .submenu {
     display: block;
 }
 
-/* MOBILE FIX */
 @media (max-width: 576px) {
     .header {
         height: 60px;
