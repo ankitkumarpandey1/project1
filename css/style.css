@@ -63,20 +63,6 @@
   display: flex;
 }
 
-.menu li {
-  position: relative;
-}
-
-.menu a {
-  display: block;
-  padding: 10px 15px;
-  color: white;
-  text-decoration: none;
-}
-
-.menu a:hover {
-  background: #444;
-}
 
 /* Hide sub-menu by default */
 .submenu {
