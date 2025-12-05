@@ -58,7 +58,7 @@
   z-index: 1;
   border: 1px solid #ccc;
     box-sizing:border-box;
-  overflow:hidden;/**/
+  overflow:hidden;
 }
 
 .nav ul li:hover .submenu {
@@ -74,6 +74,8 @@
   font-size: 1vw;
   padding: 8px 10px;
   color: black;
+   overflow:hidden;
+  
     white-space:nowrap;
     overflow:ellipsis;
   
