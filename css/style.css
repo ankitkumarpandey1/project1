@@ -57,7 +57,7 @@
   max-width: 2000px;
   z-index: 1;
   border: 1px solid #ccc;
-  box-sizing:border-box;/**/
+/**/
 }
 
 .nav ul li:hover .submenu {
@@ -73,4 +73,5 @@
   font-size: 1vw;
   padding: 8px 10px;
   color: black;
+    white-space:nowrap;
 }
