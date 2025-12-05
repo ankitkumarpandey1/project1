@@ -47,7 +47,6 @@
   text-decoration: none;
 }
 
-/* FIXED: Removed wrong space */
 .nav ul li .submenu {
   display: none;
   padding: 5px 0;
@@ -59,7 +58,6 @@
   border: 1px solid #ccc;
 }
 
-/* FIXED: Hover now works */
 .nav ul li:hover .submenu {
   display: block;
 }
