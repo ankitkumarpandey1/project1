@@ -75,6 +75,6 @@
 
 
 /* Show submenu on hover */
-.nav ul li :hover .submenu {
+.nav ul li a:hover .submenu {
   display: block;
 }
