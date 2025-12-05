@@ -75,6 +75,6 @@
   padding: 8px 10px;
   color: black;
     white-space:nowrap;
-    overflow:hidden;
+    overflow:ellpsis;
   
 }
