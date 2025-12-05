@@ -51,30 +51,28 @@
 
 . nav ul li .submenu {
   display: none;
+  padding:5px 0;
   position: absolute;
-  top: 100%;
+
   left: 0;
   background: white;
   min-width: 120px;
+    z-index:1;
   border: 1px solid #ccc;
 }
 
-.submenu li {
+.nav ul li.submenu li {
   width: 100%;
   text-align: left;
 }
 
-.submenu li a {
+.nav ul li.submenu li a {
   font-size: 1vw;
   padding: 8px 10px;
+  
   color: black;
 }
-.nevbar ul li .submenu{
-  display: none;
-  position:absolute;
-  background-color: red;
-  z-index:1;
-}
+
 
 /* Show submenu on hover */
 .nav ul li :hover .submenu {
