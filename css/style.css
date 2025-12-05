@@ -49,7 +49,7 @@
 }
 
 
-.submenu {
+. nav ul li .submenu {
   display: none;
   position: absolute;
   top: 100%;
@@ -68,6 +68,12 @@
   font-size: 1vw;
   padding: 8px 10px;
   color: black;
+}
+.nevbar ul li .submenu{
+  display: none;
+  position:absolute;
+  background-color: red;
+  z-index:1;
 }
 
 /* Show submenu on hover */
