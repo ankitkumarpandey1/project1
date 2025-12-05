@@ -54,11 +54,12 @@
   position: absolute;
   left: 0;
   background: white;
-  max-width: 2000px;
+  max-width: 20%;
   z-index: 1;
   border: 1px solid #ccc;
   box-sizing: border-box;
   overflow: hidden;
+  display:block;
 }
 
 .nav ul li:hover .submenu {
