@@ -49,6 +49,7 @@
 
 .nav ul li .submenu {
   display: none;
+  height:auto;
   padding: 5px 0;
   position: absolute;
   left: 0;
