@@ -5,63 +5,107 @@
 
 .header {
   width: 100%;
-  background: yellow;
-  display: flex;
-  
+  height: 10%;
+  background-color: red;
+  display:flex;
 }
 
 .logo {
   width: 25%;
-  background: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100%;
+  background-color: blue;
 }
 
-.logo img {
-  height: 60px;
+.logo a {
+  height: 100%;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+}
+
+.logo a img {
+  width: auto;
+  height: auto;
 }
 
 .menu {
   width: 75%;
-  background: skyblue;
+  height: 100%;
+  background-color: green;
 }
 
-.nav ul {
-  display: flex;
+.menu .menubar {
+  height: 100%;
+  width: 100%; 
+}
+
+.menu .menubar ul {
+  width: 90%;
+  height: 100%;
+  display:flex;
   justify-content: space-around;
   align-items: center;
-  height: 100%;
 }
 
-.nav ul li {
-  list-style: none;
+.menubar ul li {
   position: relative;
+  list-style: none;
+  height: 100%;  
+  display: flex;
+  align-items: center;
 }
 
-.nav ul li a {
-  color: green;
-  font-size: 1.2vw;
-  padding: 10px 15px;
-  display: block;
+.menubar ul li a {
   text-decoration: none;
+  color: magenta;
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: static !important;
 }
 
-.nav ul li .submenu {
+.menu .mobilebar {
+  height: 100%;
+  width: 0%;
+}
+
+.menu .menubar ul li .submenu {
   display: none;
-  height:auto;
-  padding: 5px 0;
   position: absolute;
-  left: 0;
-  background: white;
-  max-width: 20%;
-  z-index: 1;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  overflow: hidden;
-  display:block;
+  top:100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: magenta;
+  border: 1px solid black;
+  width: 200px;
+  height: auto;
+  flex-direction:column;
+  padding:5px 0;
+  z-index: 10;
 }
 
+.menu .menubar ul li .submenu li{
+  list-style: none;
+  padding: 8px 5%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.menu .menubar ul li .submenu li a{
+  font-size:1vw;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+  /* position: absolute; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .nav ul li:hover .submenu {
   display: block;
 }
