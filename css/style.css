@@ -31,7 +31,7 @@
 .menu {
   width: 75%;
   height: 100%;
-  background-color: green;
+  background-color: blue;
 }
 
 .menu .menubar {
@@ -57,7 +57,7 @@
 
 .menubar ul li a {
   text-decoration: none;
-  color: magenta;
+  color: red;
   font-size: 1.5vw;
   display: flex;
   justify-content: center;
