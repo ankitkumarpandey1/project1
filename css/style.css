@@ -13,7 +13,7 @@
 .logo {
   width: 25%;
   height: 100%;
-  background-color: green;
+  background-color: blue;
 }
 
 .logo a {
@@ -31,7 +31,7 @@
 .menu {
   width: 75%;
   height: 100%;
-  background-color: blue;
+  background-color: green;
 }
 
 .menu .menubar {
@@ -57,7 +57,7 @@
 
 .menubar ul li a {
   text-decoration: none;
-  color: red;
+  color: magenta;
   font-size: 1.5vw;
   display: flex;
   justify-content: center;
@@ -124,7 +124,7 @@
 
   .header .logo {
     width: 80%;
-    background-color: blue;
+    background-color: white;
   }
 
   .header .logo a {
@@ -179,38 +179,35 @@
     flex-direction: column;
   }
 
+  .header .menu .menubar ul {
+    height: auto;
+    width: 100%;
+    display:none;
+  }
+
+  .header .menu .menubar ul li {
+    padding: 5% 0;
+  }
+
+  .header .menu .menubar ul li a{
+    font-size: 1rem;
+  }
+  
+  .header .menu .menubar ul li .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transform: 0 !important;
+    display: none;
+  }
+
+  .header .menu .menubar ul li:open-submenu .submenu {
+    display: block;
+  }
+
+  
+
 
 
   
-.header .menu .menubar ul{
-   height:auto;
-   width:100%;
-   display:none;
- }
-
-.header .menu .menubar ul li{
-  padding:5% 0;
 }
-   .header .menu .menubar ul li{
-     position:absolute;
-     top:100%;
-     left:0%;
-     transform: 0 !important;
-     display:none;
-   }
- } 
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-        
